@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Anti SQL Injection</title>
+        <meta name="description" value="A simple anti-sql-injection" />
+        <meta name="theme-color" content="#4285f4">
+    </head>
+
+    <body>
+
+        <div>
+            <span>'OR' 1=1</span>
+            <input class="username-input" placeholder="username" type="text" />
+            <input class="password-input" placeholder="password" type="password" />
+            <button class="login-button">Login!</button>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(() => {
+                console.log("Loaded!")
+            })
+        </script>
+        <script src="nui.js"></script>
+    </body>
+</html>
